@@ -1,0 +1,21 @@
+/* #Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #portfolio {
+        width: 780px;
+    }
+}
+
+/* #Mobile (Portrait) . Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+    #portfolio {
+        width: 95%;
+    }
+}
+
+/* #Mobile (Landscape) . Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #portefolio {
+        width: 70%;
+    }
+}
+

@@ -1,0 +1,171 @@
+body{
+    
+}
+
+header, footer{
+   width: 100%;
+}
+
+/***********
+*  header  *
+***********/
+
+header {}
+
+    .header__entete{
+        display:inline-block;
+        vertical-align:top;
+        text-align:center;
+    }
+    
+    .header__soustitre {
+        font-size: 0.8em;
+        font-style: italic;
+    }
+
+
+    .header__image{
+        display:inline-block;
+        vertical-align:top;
+    }
+        .header__image img{
+            height:180px;
+        }
+
+/***********
+*   main   *
+***********/
+
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+    .portfolio__container { 
+        position: relative; 
+        width: 85%;
+        max-width: 1024px;
+        
+        margin: auto;
+    }
+    
+    .exp {
+        margin: 15px;
+    }
+    
+    .portefolio-style {
+        margin: 15px;
+    }
+
+    main p{
+        text-align:justify;
+    }
+    
+    ul, li {
+		margin: 0; padding: 0;
+		list-style: none;
+	}
+
+/***********
+*  footer  *
+***********/
+
+    .footer__map {
+        margin: 25px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    footer p {
+        text-align:center;
+        
+    }
+
+    .footer__lien:hover {
+    	font-weight: bold;
+    	text-decoration: none;
+    }
+
+/**** Portfolio ***/ 
+
+
+.filters {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.col {
+	display: table-cell;
+	padding-right: 6px;
+}
+.col h2 {
+	margin-bottom: 5px;
+	text-align: center;
+}
+.col ul {
+	overflow: hidden;
+	margin: 20px;
+}
+.col li {
+	float: left;
+	margin: 10px 10px 0 0;
+}
+
+    .js #grid li {
+		opacity: 0;
+		display: none;
+    }
+
+    .portfolio-wrapper {
+        overflow:hidden;
+        position: relative !important;
+        height: 160px;
+        line-height: 160px;
+        width:240px;
+        
+        cursor:pointer;
+    }
+
+    .mix img {
+        width:240px;
+        
+        position: relative;
+    }
+    
+    .mix .label {
+        position: absolute;
+        width: 240px;
+        height: 40px;
+        bottom: -40px;
+    }
+
+        .mix .label-bg {
+            width: 240px;
+            height:100%;
+            position: absolute;
+            top:0;
+            left:0;
+        }
+    
+        .mix .label-text {
+            position: relative;
+            z-index:500;
+            padding:5px 8px;
+        }
+            
+            .mix .text-category {
+                display:block;
+                font-size:9px;
+            }
+
+/* #Clearing */
+
+#presentation, #portfolio, #contact {
+    padding: 50px;
+}
+

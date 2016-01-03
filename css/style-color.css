@@ -1,0 +1,58 @@
+body {
+    background-color:#000;
+    color:#C4929E;
+}
+
+/***********
+*  header  *
+***********/
+
+.header-style {
+    background-image:url(../Images/background-binaire.png);
+    background-attachment: fixed;
+    
+    color: #CDCEF7;
+}
+
+/***********
+*   main   *
+***********/
+
+main {
+    
+}
+
+
+
+/* portefolio */
+
+.portfolio__container-style {
+    background-color: #18CBEF;
+    
+    color: red;
+}
+
+    .mix .text-title {
+        text-decoration: none;
+        color: blue;
+    }
+
+    .mix .label-bg {
+        background: #e95a44;
+    }
+
+    .mix .label-text {
+        color: red;
+    }
+
+/***********
+*  footer  *
+***********/
+
+.footer__lien {
+    	color:#E63C3C;
+    }
+    
+    .footer__lien:hover {
+        	color:#58E42E;
+        }
